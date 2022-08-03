@@ -1,5 +1,5 @@
 # bypass_the_captcha_slider
-Explanation of how to bypass the captcha slider, on the example of the site coinmarketcap.com.
+Explanation of how to bypass the captcha slider by **"Template Matching"** in OpenCV, on the example of the site coinmarketcap.com.
 
 This file can be used through a web server:
 ```
