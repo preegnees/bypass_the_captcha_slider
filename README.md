@@ -17,10 +17,10 @@ def hello():
 2. Using opencv to read in matrix form.
 3. [1]* we determine the size of the detail by eye, it is usually on the left side. We get the width, height, initial position x and y.
 4. [2]* then we crop the detail, get it separately. We do the same with the rest of the part. We have two separate parts.
-5. [3]* when getting ..._cunny, we have to run it a couple of times (with different captchas) to find the optimal value of the parameters (the second and third arguments). In order to see the result of the run, you can simply add the code so that it saves the result and thus finds the optimal value for your site's captcha.
+5. [3]* when getting the variable "..._cunny", we have to run it a couple of times (with different captchas) to find the optimal value of the parameters (the second and third arguments). In order to see the result of the run, you can simply add the code so that it saves the result and thus finds the optimal value for your site's captcha.
 6. after finding the optimal measurements, we have the value x of the value, the distance we will need to move the part.
 
-Captcha interception can be done using the <puppeteer> (js) library. For example:
+Captcha interception can be done using the "puppeteer" (js) library. For example:
 ```
 page.on('response', async response => {
 	const status = response.status()
