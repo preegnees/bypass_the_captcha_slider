@@ -11,7 +11,7 @@ def hello():
 	return get_distance(img_bytes)
 ```
 
-* - search in code.
+[...]* - search in code.
 
 1. We write the received bytes to a file and get a picture.
 2. Using opencv to read in matrix form.
